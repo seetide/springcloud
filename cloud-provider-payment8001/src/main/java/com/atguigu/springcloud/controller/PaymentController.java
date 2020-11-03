@@ -37,7 +37,7 @@ public class PaymentController {
     }
 
     @GetMapping(value = "/payment/get/{id}")
-    public CommonResult getPaymentId(@PathVariable("id") Long id) {
+    public CommonResult<Payment> getPaymentId(@PathVariable("id") Long id) {
         Payment result = paymentService.getPaymentById(id);
 
         log.info("The insertion result: " + result);
