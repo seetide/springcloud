@@ -8,7 +8,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-provider-payment8003" />
-        <module name="cloud-payment-provider" />
         <module name="cloud-provider-payment8002" />
         <module name="cloud-provider-payment8004" />
         <module name="cloud-eureka-server7001" />
@@ -16,8 +15,10 @@
         <module name="cloud-consumer-orderzk80" />
         <module name="cloud-provider-payment8001" />
         <module name="cloud-eureka-server7002" />
-        <module name="cloud-consumer-order80" />
         <module name="cloud-consumerzk-order80" />
+        <module name="cloud-payment-provider" />
+        <module name="cloud-consumer-order80" />
+        <module name="cloud-provider-hystrix-payment8001" />
         <module name="cloud-consumer-feign-order80" />
       </profile>
     </annotationProcessing>
@@ -30,6 +31,7 @@
       <module name="cloud-eureka-server7001" target="1.8" />
       <module name="cloud-eureka-server7002" target="1.8" />
       <module name="cloud-payment-provider" target="1.8" />
+      <module name="cloud-provider-hystrix-payment8001" target="1.8" />
       <module name="cloud-provider-payment8001" target="1.8" />
       <module name="cloud-provider-payment8002" target="1.8" />
       <module name="cloud-provider-payment8003" target="1.8" />
