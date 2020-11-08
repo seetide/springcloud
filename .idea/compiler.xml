@@ -23,6 +23,7 @@
         <module name="cloud-consumer-order80" />
         <module name="cloud-provider-hystrix-payment8001" />
         <module name="cloud-config-client-3355" />
+        <module name="cloud-config-client-3366" />
         <module name="cloud-consumer-feign-order80" />
       </profile>
     </annotationProcessing>
@@ -30,6 +31,7 @@
       <module name="cloud-api-commons" target="1.8" />
       <module name="cloud-config-center-3344" target="1.8" />
       <module name="cloud-config-client-3355" target="1.8" />
+      <module name="cloud-config-client-3366" target="1.8" />
       <module name="cloud-consumer-feign-hystrix-order80" target="1.8" />
       <module name="cloud-consumer-feign-order80" target="1.8" />
       <module name="cloud-consumer-order80" target="1.8" />
